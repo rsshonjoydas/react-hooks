@@ -1,6 +1,7 @@
 import ClassCounter from './components/ClassCounter';
 import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCouner from './components/HookCouner';
+import HookCountertwo from './components/HookCountertwo';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <HookCouner />
       <br />
       <ClassCounterTwo />
+      <br />
+      <HookCountertwo />
     </div>
   );
 }
