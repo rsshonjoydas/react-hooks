@@ -1,9 +1,14 @@
-import ComponentF from './ComponentF';
+import { useContext } from 'react';
+import { ChannelContext, UserContext } from '../App';
 
-const ComponentE = () => (
-  <div>
-    <ComponentF />
-  </div>
-);
+const ComponentE = () => {
+  const user = useContext(UserContext);
+  const channel = useContext(ChannelContext);
+  return (
+    <div>
+      {user} - {channel}
+    </div>
+  );
+};
 
 export default ComponentE;
