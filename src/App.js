@@ -1,4 +1,5 @@
 import ClassCounterOne from './components/ClassCounterOne';
+import ClassMouse from './components/ClassMouse';
 import HookCounterOne from './components/HookCounterOne';
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <div className="App">
       <h1>RS Shonjoy</h1>
       <ClassCounterOne /> <br />
-      <HookCounterOne />
+      <HookCounterOne /> <br />
+      <ClassMouse />
     </div>
   );
 }
