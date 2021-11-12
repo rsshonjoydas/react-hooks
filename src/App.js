@@ -1,3 +1,5 @@
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
 import DocTitleOne from './components/DocTitleOne';
 import DocTitleTwo from './components/DocTitleTwo';
 
@@ -7,6 +9,8 @@ function App() {
       <h1>RS Shonjoy</h1>
       <DocTitleOne />
       <DocTitleTwo />
+      <CounterOne />
+      <CounterTwo />
     </div>
   );
 }
