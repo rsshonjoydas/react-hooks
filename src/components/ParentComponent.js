@@ -8,12 +8,12 @@ const ParentComponent = () => {
   const [salary, setSalary] = useState(50000);
 
   const incrementAge = useCallback(() => {
-    setAge(age + 1);
-  }, [age]);
+    setAge((prevState) => prevState + 1);
+  }, []);
 
   const incrementSalary = useCallback(() => {
-    setSalary(salary + 1000);
-  }, [salary]);
+    setSalary((prevState) => prevState + 1000);
+  }, []);
 
   return (
     <div>
