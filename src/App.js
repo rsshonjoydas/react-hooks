@@ -1,14 +1,16 @@
 import ClassTimer from './components/ClassTimer';
-import FocusInput from './components/FocusInput';
+// import FocusInput from './components/FocusInput';
+import Form from './components/forwardRef/Form';
 import HookTimer from './components/HookTimer';
 
 function App() {
   return (
     <div className="App">
       <h1>RS Shonjoy</h1>
-      <FocusInput /> <br />
+      {/* <FocusInput /> <br /> */}
       <ClassTimer />
-      <HookTimer />
+      <HookTimer /> <br />
+      <Form />
     </div>
   );
 }
